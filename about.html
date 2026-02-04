@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story | Scent & Co.</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo"><a href="index.html">SCENT & CO.</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#collection">Collection</a></li>
+                <li><a href="about.html" class="active">Our Story</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                <div class="cart-icon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Hero -->
+    <header class="hero" style="height: 60vh; background-image: url('https://images.unsplash.com/photo-1557827983-012eb6ea8dc1?q=80&w=2000&auto=format&fit=crop');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <h1>The Art of Scent</h1>
+            <p class="tagline">Heritage. Craftsmanship. Passion.</p>
+        </div>
+    </header>
+
+    <!-- Main Story Content -->
+    <section class="section">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2>A Legacy of Luxury</h2>
+                <p>Founded in the heart of Grasse, France, Scent & Co. began with a singular vision: to capture the ephemeral beauty of nature in a bottle. For over a decade, we have collaborated with the world's most renowned perfumers to create fragrances that are not merely scents, but emotional journeys.</p>
+                <p>Our philosophy is rooted in the belief that true luxury lies in the details. From the hand-picked jasmine fields of Provence to the rare oud sourced from sustainable forests in Southeast Asia, every ingredient is selected with uncompromising care.</p>
+                <p>We reject the modern rush of mass production. Instead, we embrace the slow, deliberate art of maceration, allowing our blends to mature and deepen over time, resulting in perfumes of exceptional complexity and longevity.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1616092733983-228e83cf4c94?q=80&w=1000&auto=format&fit=crop" alt="Perfume Creation Process">
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values -->
+    <section class="section" style="background-color: #111;">
+        <div class="container">
+            <div class="text-center" style="margin-bottom: 60px;">
+                <h2>Our Core Values</h2>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <i class="fa-solid fa-flask"></i>
+                    <h3>Artisanal Mastery</h3>
+                    <p>We honor traditional methods of perfumery, blending science with art to create timeless masterpieces.</p>
+                </div>
+                <div class="value-card">
+                    <i class="fa-solid fa-leaf"></i>
+                    <h3>Sustainable Sourcing</h3>
+                    <p>We are committed to ethical sourcing, ensuring that nature's gifts are preserved for future generations.</p>
+                </div>
+                <div class="value-card">
+                    <i class="fa-regular fa-gem"></i>
+                    <h3>Uncompromising Quality</h3>
+                    <p>Excellence is our standard. We use only the highest concentration of oils for a rich, lasting sillage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>SCENT & CO.</h3>
+                <p>Defining luxury, one drop at a time.</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html#collection">Shop</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="#">Privacy</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Scent & Co. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Cart Modal (Reused) -->
+    <div class="cart-overlay">
+        <div class="cart-modal">
+            <div class="cart-header">
+                <h2>Your Shopping Bag</h2>
+                <button class="close-cart"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="cart-items"><p class="empty-cart-msg">Your bag is currently empty.</p></div>
+            <div class="cart-footer"><div class="cart-total"><span>Total:</span><span class="total-price">$0.00</span></div><a href="checkout.html" class="btn btn-primary checkout-btn">Checkout</a></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
